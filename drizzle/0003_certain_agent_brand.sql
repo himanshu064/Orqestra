@@ -1,0 +1,2 @@
+CREATE INDEX "agent_steps_org_agent_idx" ON "agent_steps" USING btree ("organization_id","agent");--> statement-breakpoint
+CREATE INDEX "tool_calls_org_tool_idx" ON "tool_calls" USING btree ("organization_id","tool");

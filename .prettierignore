@@ -1,0 +1,18 @@
+# Build output & deps
+node_modules
+.next
+out
+build
+coverage
+
+# Lockfiles
+package-lock.json
+pnpm-lock.yaml
+
+# Generated
+next-env.d.ts
+drizzle
+
+# Planning docs (keep author formatting)
+AI_Operations_Command_Center_Requirements.md
+Orqestra_Implementation_Plan.md
